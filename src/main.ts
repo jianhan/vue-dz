@@ -2,7 +2,7 @@ import '@babel/polyfill'
 import Vue from 'vue'
 import './plugins/vuetify'
 import Main from './layouts/Main.vue'
-import router from './router'
+import router from './routes'
 import store from './store'
 import './registerServiceWorker'
 
