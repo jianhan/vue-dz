@@ -17,6 +17,7 @@
 </template>
 
 <script>
+
 export default {
   name: 'HelloWorld',
   props: {
@@ -41,4 +42,5 @@ li {
 a {
   color: #42b983;
 }
+
 </style>

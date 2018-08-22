@@ -1,5 +1,5 @@
 <template>
-  <v-app id="inspire">
+  <v-app id="main-layout">
     <v-navigation-drawer
       v-model="drawerRight"
       fixed
@@ -19,14 +19,14 @@
       </v-list>
     </v-navigation-drawer>
     <v-toolbar
-      color="blue-grey"
+      color="purple darken-3"
       dark
       fixed
       app
       clipped-right
     >
       <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>
-      <v-toolbar-title>Toolbar</v-toolbar-title>
+      <v-toolbar-title>122233322asfsad11Toolbar</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-toolbar-side-icon @click.stop="drawerRight = !drawerRight"></v-toolbar-side-icon>
     </v-toolbar>
